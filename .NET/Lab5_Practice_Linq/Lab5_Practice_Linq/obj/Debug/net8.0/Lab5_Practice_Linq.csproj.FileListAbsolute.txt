@@ -1,0 +1,15 @@
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\bin\Debug\net8.0\Lab5_Practice_Linq.exe
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\bin\Debug\net8.0\Lab5_Practice_Linq.deps.json
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\bin\Debug\net8.0\Lab5_Practice_Linq.runtimeconfig.json
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\bin\Debug\net8.0\Lab5_Practice_Linq.dll
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\bin\Debug\net8.0\Lab5_Practice_Linq.pdb
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.AssemblyInfoInputs.cache
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.AssemblyInfo.cs
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.csproj.CoreCompileInputs.cache
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.sourcelink.json
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.dll
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\refint\Lab5_Practice_Linq.dll
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.pdb
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\Lab5_Practice_Linq.genruntimeconfig.cache
+D:\New folder\SEM6\SEM6_LAB\.NET\Lab5_Practice_Linq\Lab5_Practice_Linq\obj\Debug\net8.0\ref\Lab5_Practice_Linq.dll

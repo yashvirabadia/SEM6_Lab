@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dOliGF/P0zc=",
+  "dgSpecHash": "3HL1Os2M/lM=",
   "success": true,
-  "projectFilePath": "D:\\New folder\\SEM6\\LAB\\.NET\\FirstAPIProject\\FirstAPIProject\\FirstAPIProject.csproj",
+  "projectFilePath": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\FirstAPIProject\\FirstAPIProject\\FirstAPIProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yashv\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\yashv\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

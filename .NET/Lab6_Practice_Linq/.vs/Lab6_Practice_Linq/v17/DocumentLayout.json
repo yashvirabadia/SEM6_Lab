@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5662035-BB21-41F6-BA08-0F37AABFF18B}|Lab6_Practice_Linq\\Lab6_Practice_Linq.csproj|d:\\new folder\\sem6\\sem6_lab\\.net\\lab6_practice_linq\\lab6_practice_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5662035-BB21-41F6-BA08-0F37AABFF18B}|Lab6_Practice_Linq\\Lab6_Practice_Linq.csproj|solutionrelative:lab6_practice_linq\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5662035-BB21-41F6-BA08-0F37AABFF18B}|Lab6_Practice_Linq\\Lab6_Practice_Linq.csproj|d:\\new folder\\sem6\\sem6_lab\\.net\\lab6_practice_linq\\lab6_practice_linq\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5662035-BB21-41F6-BA08-0F37AABFF18B}|Lab6_Practice_Linq\\Lab6_Practice_Linq.csproj|solutionrelative:lab6_practice_linq\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5662035-BB21-41F6-BA08-0F37AABFF18B}|Lab6_Practice_Linq\\Lab6_Practice_Linq.csproj|d:\\new folder\\sem6\\sem6_lab\\.net\\lab6_practice_linq\\lab6_practice_linq\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5662035-BB21-41F6-BA08-0F37AABFF18B}|Lab6_Practice_Linq\\Lab6_Practice_Linq.csproj|solutionrelative:lab6_practice_linq\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\Lab6_Practice_Linq\\Course.cs",
+              "RelativeDocumentMoniker": "Lab6_Practice_Linq\\Course.cs",
+              "ToolTip": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\Lab6_Practice_Linq\\Course.cs",
+              "RelativeToolTip": "Lab6_Practice_Linq\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:10:06.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\Lab6_Practice_Linq\\Student.cs",
+              "RelativeDocumentMoniker": "Lab6_Practice_Linq\\Student.cs",
+              "ToolTip": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\Lab6_Practice_Linq\\Student.cs",
+              "RelativeToolTip": "Lab6_Practice_Linq\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:09:14.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\Lab6_Practice_Linq\\Program.cs",
+              "RelativeDocumentMoniker": "Lab6_Practice_Linq\\Program.cs",
+              "ToolTip": "D:\\New folder\\SEM6\\SEM6_LAB\\.NET\\Lab6_Practice_Linq\\Lab6_Practice_Linq\\Program.cs",
+              "RelativeToolTip": "Lab6_Practice_Linq\\Program.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAQwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T03:08:13.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

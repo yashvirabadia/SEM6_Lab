@@ -1,0 +1,158 @@
+// See https://aka.ms/new-console-template for more information
+using ConsoleApp1;
+
+
+//Console.WriteLine("Hello, World!");
+
+//Person person1 = new Person() { Name = "John", Age = 28, Department = "IT", City = "New York" };
+//Person person2 = new Person() { Name = "Alice", Age = 34, Department = "HR", City = "Los Angeles" };
+//Person person3 = new Person() { Name = "Bob", Age = 45, Department = "Finance", City = "Chicago" };
+//Person person4 = new Person() { Name = "Eve", Age = 29, Department = "IT", City = "San Francisco" };
+
+//List<Person> persons = new List<Person>() { person1, person2, person3, person4 };
+
+//var personsGreaterThan30 = from person in persons
+//                           where person.Age > 30
+//                           select person;
+
+//get persons greater than 30 from list
+//foreach (var person in personsGreaterThan30)
+//{
+//    Console.WriteLine($"{person.Name}, {person.Age}, {person.Department}, {person.City}");
+//}
+
+List<Person> GetALlPersons()
+{
+    List<Person> person = new List<Person>();
+
+    person.Add(new Person() { Name = "John", Age = 28, Department = "IT", City = "New York" });
+    person.Add(new Person() { Name = "Alice", Age = 34, Department = "HR", City = "Los Angeles" });
+    person.Add(new Person() { Name = "Bob", Age = 45, Department = "Finance", City = "Chicago" });
+    person.Add(new Person() { Name = "Eve", Age = 29, Department = "IT", City = "San Francisco" });
+    person.Add(new Person() { Name = "Charlie", Age = 32, Department = "IT", City = "Seattle" });
+    person.Add(new Person() { Name = "David", Age = 27, Department = "HR", City = "New York" });
+    person.Add(new Person() { Name = "Fiona", Age = 38, Department = "Finance", City = "Miami" });
+    person.Add(new Person() { Name = "George", Age = 31, Department = "IT", City = "Denver" });
+
+    return person;
+}
+
+var persons = GetALlPersons();
+
+//1.Linq persons greater than 30
+var personsGreaterThan30 = persons.
+    Where(per => per.Age > 30).
+    ToList();
+
+foreach (var person in personsGreaterThan30)
+{
+    Console.WriteLine($"{person.Name}, {person.Age}, {person.Department}, {person.City}");
+}
+
+//2.linq get persons from IT department
+var personsFromIT = persons.
+    Where(p => p.Department == "IT").
+    ToList();
+
+var ageGreaterThan30 = persons.
+    Where(p => p.Age > 30).
+    ToList();
+
+//3.name alice
+var nameAlice = persons.
+    Where(p => p.Name == "Alice").
+    ToList();
+
+//4.city New York
+var cityNewYork = persons.
+    Where(p => p.City == "New York").
+    ToList();
+
+//5.age between 25 and 35
+var ageBetween = persons.
+    Where(p => p.Age >= 25 && p.Age <= 35).
+    ToList();
+
+//6.department HR or Finance
+var deptHROrFinance = persons.
+    Where(p => p.Department == "HR" || p.Department == "Finance").
+    ToList();
+
+//7.city new york and age less than 30
+var cityNewyorkAge30Less = persons.
+    Where(p => p.City == "New York" && p.Age < 30).
+    ToList();
+
+//8.name sarts with J
+var nameStartsWithJ = persons.
+    Where(p => p.Name.StartsWith("J")).
+    ToList();
+
+//9.city ends with o
+var cityEndsWithO = persons.
+    Where(p => p.City.EndsWith("o")).
+    ToList();
+
+//10.department contains 'I'
+var deptContainsI = persons.
+    Where(p => p.Department.Contains("I")).
+    ToList();
+
+//11.select name and age of person from IT department
+var nameAndAgeFromIT = persons.
+    Where(p => p.Department == "IT").
+    Select(p => new { p.Name, p.Age }).
+    ToList();
+
+//12.age greater than 30 and order by name then by age
+var ageGreaterThan30OrderByNameAge = persons.
+    Where(p => p.Age > 30).
+    OrderBy(p => p.Name).
+    ThenBy(p => p.Age).
+    ToList();
+
+//13.first person with age greater than 30
+var firstPersonAgeGreaterThan30 = persons.
+    Where(p => p.Age > 30).
+    FirstOrDefault();
+
+//14.group persons by department
+var groupByDepartment = persons.
+    GroupBy(p => p.Department).
+    ToList();
+
+//15.first 2 persons
+var first2Persons = persons.
+    Take(2).
+    ToList();
+
+//16.last 2 persons
+var last2Persons = persons.
+    TakeLast(2).
+    ToList();
+
+//17.skip first 2 persons
+var skipFirst2Persons = persons.
+    Skip(2).
+    ToList();
+
+//18.skip first 2 persons and take next 3 persons
+var skipFirst2TakeNext3Persons = persons.
+    Skip(2).
+    Take(3).
+    ToList();
+
+foreach (var person in skipFirst2TakeNext3Persons)
+{
+    Console.WriteLine($"{person.Name}, {person.Age}, {person.Department}, {person.City}");
+}
+
+//19. groupbye city and department
+var groupByCityAndDepartment = persons.
+    GroupBy(p => new { p.City, p.Department }).
+    ToList();
+
+
+
+
+C:\Users\yashv\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\3232AC893F9907E2414E3F792A4C2AC7D54180D7\transfers\2025-49
