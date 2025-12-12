@@ -1,7 +1,5 @@
-/*program to greet 
-amazing people*/
+
 	Hello World!
 Hope you all are doing well.
-//Hello
 Have a great day ahead.I am Yashvi.
 
