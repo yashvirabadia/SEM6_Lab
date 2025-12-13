@@ -1,7 +1,23 @@
-/*program to greet 
-amazing people*/
-	Hello World!
-Hope you all are doing well.
-//Hello
-Have a great day ahead.I am Yashvi.
+#include <stdio.h>
 
+int main() {
+
+    FILE *fp1 = fopen("f2.txt", "r");
+
+    if (fp1 == NULL) {
+        printf("File not found!\n");
+        return 0;
+    }
+
+    int ch;
+
+    /* Keywords list */
+    char keywords[32][10] = {
+        "auto", "break", "case", "char", "const", "continue",
+        "default", "do", "double", "else", "enum", "extern",
+        "float", "for", "goto", "if", "int", "long",
+        "register", "return", "short", "signed", "sizeof",
+        "static", "struct", "switch", "typedef", "union",
+        "unsigned", "void", "volatile", "while"
+    };
+}
