@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    var countries = ViewBag.CountryList as List<AJAX_Practice.Models.CountryModel>;
+}
+
+<div class="container mt-4">
+    <h2>Select Country</h2>
+
+    <form method="post">
+        <div class="mb-3">
+            <role-dropdown items="countries" name="CountryId"></role-dropdown>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    @if (ViewBag.SelectedCountryId != null)
+    {
+        <div class="mt-3 alert alert-success">
+            Selected Country ID: <b>@ViewBag.SelectedCountryId</b>
+        </div>
+    }
+</div>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeaveManageAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9823b0edd1a7a6c5e2f2016a8533c9b6abb1995")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebae40bdbabcb5d1413bebc32df2643e65c9ab82")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeaveManageAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeaveManageAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

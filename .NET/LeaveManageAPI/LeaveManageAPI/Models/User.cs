@@ -13,7 +13,7 @@ namespace LeaveManageAPI.Models
         public string Name { get; set; } = string.Empty;
 
         [Required, MaxLength(100), EmailAddress]
-        [Index(IsUnique = true)]
+      
         public string Email { get; set; } = string.Empty;
 
         [Required, MaxLength(255)]
@@ -21,6 +21,7 @@ namespace LeaveManageAPI.Models
 
         [MaxLength(20)]
         public string? PhoneNumber { get; set; }
+        public bool IsActive { get; set; } = true; // NEW FIELD
 
         [Required]
         [ForeignKey("Role")]
